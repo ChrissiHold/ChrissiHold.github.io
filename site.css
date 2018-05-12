@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100');
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
 	background-color: #2B00FF;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #FFFFFF;
-	font-weight: 100;
 	font-size: 16px;
 }
 
@@ -14,10 +13,23 @@ container {
 	margin: 0 auto;
 }
 
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #4669FF;
+}
+
 welcome h1 {
 	font-size: 2.8rem;
 }
 
 welcome {
+	text-align: center;
+}
+
+footer {
+	font-size: 0.8rem;
 	text-align: center;
 }
