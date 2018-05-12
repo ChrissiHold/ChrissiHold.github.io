@@ -1,7 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100');
 
 body {
 	background-color: #2B00FF;
 	font-family: 'Roboto Slab', serif;
 	color: #FFFFFF;
+	font-weight: 100;
+	font-size: 16px;
+}
+
+container {
+	max-width: 1024px;
+	display: block;
+	margin: 0 auto;
+}
+
+welcome h1 {
+	font-size: 2.8rem;
+}
+
+welcome {
+	text-align: center;
 }
